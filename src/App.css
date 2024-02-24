@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+header{
+  display: flex;
+  background-color: blue;
+  height: 10vh;
+  color: white;
+  align-items: center;
+}
+
+header img{
+  display: flex;
+  height: 80%;
+  margin: 2%;;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  width: 100vw;
+  justify-content: center;
+}
+
+
+footer{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: blue;
+  height: 10vh;
+  width: 100vw;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
